@@ -1,0 +1,44 @@
+.review-index-container table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 65%;
+}
+
+.review-index-container th a {
+    color: #343a40;
+}
+
+.review-index-container th {
+    padding: 0.5rem;
+    border: 1px solid;
+    border-color: #343a40;
+    background-color: gold;
+    color: #343a40;
+    text-align: left;
+}
+
+.review-index-container td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.review-index-container .read {
+    border-style: none;
+}
+
+.review-index-container .read a {
+    padding: 0.4rem 0.7rem;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: firebrick;
+    text-decoration: none;
+}
+
+.review-index-container .read a:hover {
+    background-color: #7f0505;
+}

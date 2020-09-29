@@ -1,0 +1,13 @@
+{% extends "HikingApp/HikingApp_Base.html" %}
+
+{% block title %}Happ{% endblock %}
+
+{% block header %}Welcome to Happ! The Hiking App!{% endblock %}
+
+
+{% block contentA %}
+    <div class="survey_container">
+        <h2 class="sub_title-a">Would you like to fill out our poll?</h2>
+        <a href="{% url 'happ_survey' %}" class="active">Go to survey</a>
+    </div>
+{% endblock %}

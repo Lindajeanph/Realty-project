@@ -1,0 +1,20 @@
+{% extends "HikingApp/HikingApp_Base.html" %}
+
+{% block title %}Happ My Profile{% endblock %}
+
+{% block header %}User Accounts{% endblock %}
+
+{% block headerA %}New User{% endblock %}
+
+{% block contentA %}
+    <div class="contentA_container">
+        <h2 class="sub_title-a">Please fill out the new user form below.</h2>
+        <div class="form_container">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_ul }}
+                <button id="new_user_button" type="submit">Create Account</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "ComicApp/ComicApp_Base.html" %}
+
+{% block title %}Details - Comic Database{% endblock %}
+
+{% block header %}Details{% endblock %}
+
+{% block content %}
+    <hr>
+    <div class="review-details-container">
+        <div>
+            <h4>Series</h4>
+            <p>{{ user_review.series }}</p>
+        </div>
+        <div class="banded">
+            <h4>Issue</h4>
+            <p>{{ user_review.issue }}</p>
+        </div>
+        <div>
+            <h4>Rating</h4>
+            <p>{{ user_review.rating }}/10</p>
+        </div>
+        <div class="banded">
+            <h4>Review</h4>
+            <p>{{ user_review.review }}</p>
+        </div>
+        <div>
+            <h4>Date Submitted</h4>
+            <p>{{ user_review.created }}</p>
+        </div>
+        <div class="banded">
+            <h4>Date Last Modified</h4>
+            <p>{{ user_review.modified }}</p>
+        </div>
+        <div>
+            <h4>User</h4>
+            <p>{{ user_review.user }}</p>
+        </div>
+    </div>
+{% endblock %}

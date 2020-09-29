@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+#cocktail-promo {
+    height: 70px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.bgImgContainer img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.header-title {
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding:30px;
+    padding-left: 100px;
+}
+
+.footer-style {
+    color: #828282;
+    bottom: 5px;
+    position: relative;
+    margin-top: 50%;
+    margin-bottom: 25px;
+}

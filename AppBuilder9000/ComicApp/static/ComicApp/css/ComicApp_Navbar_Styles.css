@@ -1,0 +1,62 @@
+.nb {
+    padding: 0;
+    margin: 0;
+    min-height: 3.75rem;
+    max-height: 3.75rem;
+    align-items: center;
+}
+
+.logo {
+    padding: 0.5rem;
+    margin: 0 0.5rem 0 1rem;
+    font-family: bookman;
+}
+
+.logo:hover {
+    background-color: firebrick;
+}
+
+.logo-text {
+    padding: 1rem 1rem 1rem 0.5rem;
+    margin-right: 0;
+    margin-bottom: 0.1rem;
+    font-family: bookman;
+}
+
+.logo-text:hover {
+    background-color: #1a232b;
+}
+
+.nav1 {
+    padding: 1rem;
+    margin: 0;
+    width: 5rem;
+    text-align: center;
+}
+
+.nav1:hover {
+    background-color: #1a232b;
+}
+
+.nav2 {
+    padding: 1rem;
+    margin: 0;
+    width: 7rem;
+    text-align: center;
+}
+
+.nav2:hover {
+    background-color: #1a232b;
+}
+
+.sign-up {
+    margin: 0 1rem;
+    padding: 0.6rem;
+    height: 50%;
+    width: 11rem;
+    text-align: center;
+}
+
+.sign-up:hover {
+    background-color: firebrick;
+}

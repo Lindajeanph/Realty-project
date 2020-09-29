@@ -1,0 +1,19 @@
+{% extends "HikingApp/HikingApp_Base.html" %}
+
+{% block title %}Survey{% endblock %}
+
+{% block header %}HAPP Survey{% endblock %}
+
+{% block contentA %}
+    <div class="contentA_container">
+        <h2 class="sub_title-a">Please fill out the survey below.</h2>
+        <div class="form_container">
+            <form method="POST">
+            {% csrf_token %}
+            {{ form.as_ul }}
+            <button id="submit_poll" type="submit" onclick="">Submit Poll</button>
+        </form>
+        </div>
+
+    </div>
+{% endblock %}

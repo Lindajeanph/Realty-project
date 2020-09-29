@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+#App-Home {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}

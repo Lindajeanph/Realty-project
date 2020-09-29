@@ -1,0 +1,13 @@
+<nav class="nb navbar navbar-expand-sm bg-dark sticky-top">
+  <!-- Brand/logo -->
+  <a class="logo navbar-brand text-white rounded-circle border border-white" href="{% url 'ComicHome' %}">CD</a>
+  <a class="logo-text navbar-brand text-white border-right" href="{% url 'ComicHome' %}">Comic Database</a>
+  <!-- Links -->
+  <div class="navbar-nav">
+    <a class="nav1 nav-item nav-link text-white" href="{% url 'ComicReview' %}">Review</a>
+    <a class="nav2 nav-item nav-link text-white" href="{% url 'ComicReviewIndex' %}">Review Index</a>
+  </div>
+  <div class="navbar-nav ml-auto">
+    <a class="sign-up nav-item nav-link text-white border border-white" href="{% url 'ComicSignUp' %}">Sign Up</a>
+  </div>
+</nav>
